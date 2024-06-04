@@ -1,0 +1,2828 @@
+@media (min-width:1400px) and (max-width:1919.98px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
+    @font-face{
+        font-family:font_body;
+        src:url(../FONT/TT\ Octosquares\ Trial\ Compressed\ Light.ttf);
+    }
+    @font-face {
+        font-family:font_title;
+        src: url(../FONT/VictorianBritania.ttf);
+    }
+    body{
+        background-color: black;
+        color:rgb(252, 225, 197);
+    }
+    h1{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:50px;
+    }
+    h2{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+    }
+    h3{
+        color:rgb(157, 91, 41);
+        font-family:font_title;
+        font-size:25px;
+    }
+    h4{
+        color:black;
+        font-family:font_body;
+        font-size:22px;
+    }
+    h4:hover{
+        color:black;
+        font-family:font_body;
+        font-size:22px;
+        text-decoration:underline;
+    }
+    h5{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:30px;
+    }
+    h6{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:17px;
+    }
+    h6:hover{
+        color:rgb(98, 53, 18);
+    }
+    p{
+        color:rgb(252, 225, 197);
+        font-family:font_body;
+        font-size:25px;
+    }
+    .container{
+        width:100%;
+        height:6195px;
+    }
+    .menu{
+        background-color:rgba(47, 34, 34, 0.593);
+        width:100%;
+        height:150px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .menu img{
+        width:40px;
+        height:40px;
+    }
+    .menu img:hover{
+        width:70px;
+        height:70px;
+        transition:.3s;
+    }
+    a{
+        color:rgb(252, 225, 197);
+        text-decoration:none;
+    }
+    li{
+        color:rgb(252, 225, 197);
+        font-size:large;
+        font-family:font_title;
+        width:200px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    li:hover{
+        color:rgb(42, 143, 0);
+        font-size:larger;
+        font-family:font_title;
+        transition: .3s;
+        width:200px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .sobre{
+        background-image:url(../IMG/loja_de_discos.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:650px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .sobre img{
+        width:450px;
+        height:450px;
+    }
+    .sobre_logo{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:550px;
+        width:600px;
+        border-radius:7px;
+        padding:30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_logo img{
+        width:450px;
+        height:450px;
+    }
+    .sobre_text{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:550px;
+        width:600px;
+        border-radius:7px;
+        padding:30px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_text img{
+        height:50px;
+        width:50px;
+    }
+    .image_banner{
+        width:1000px;
+        height:500px;
+        border-radius:7px;
+        margin-left:240px;
+        margin-right:60px;
+        margin-top:60px;
+        margin-bottom:20px;
+    }
+    .image_banner img{
+        width:1000px;
+        height:500px;
+        border-radius:7px;
+    }
+    .divisao{
+        width:100%;
+        height:3500px;
+        margin-top:60px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .divisao img{
+        width:300px;
+        height:300px;
+    }
+    .title_bandas{
+        background-color:rgba(37, 26, 19, 0.805);
+        width:1400px;
+        height:100px;
+        border-radius:7px;
+        margin-top:60px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .title_bandas img{
+        width:180px;
+        height:100px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .bandas{
+        background-color: rgba(37, 26, 19, 0.805);
+        height:700px;
+        width:1400px;
+        border-radius:7px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .discos{
+        background-color: rgb(252, 225, 197);
+        color:black;
+        height:500px;
+        width:300px;
+        border-radius:7px;
+        padding:10px;
+        margin-left:15px;
+        margin-right:15px;
+        display:flex;
+        flex-direction:column;
+    }
+    .discos img{
+        height:200px;
+        width:200px;
+    }
+    .discos:hover{
+        background-color:rgb(74, 119, 55);
+        color:black;
+        height:500px;
+        width:300px;
+        border-radius:7px;
+        padding:10px;
+        margin-left:15px;
+        margin-right:15px;
+        transition:.5s;
+        display:flex;
+        flex-direction:column;
+    }
+    .img_discos{
+        height:200px;
+        width:300px;
+        display:flex;
+        justify-content:center;
+    }
+    .stars{
+        height: fit-content;
+        width: 325px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .stars img{
+        height:20px;
+        width:100px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .preco{
+        color:rgb(0, 0, 0);
+        font-family:font_body;
+        font-size:40px;
+    }
+    .outros_produtos{
+        width:100%;
+        height:750px;
+        margin-top:60px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bandas_mais{
+        background-color:rgba(37, 26, 19, 0.805);
+        height:550px;
+        width:1400px;
+        border-radius:7px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .outros{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-left:10px;
+        margin-right:10px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .outros img{
+        border-radius:50%;
+        width:100px;
+        height:100px;
+    }
+    .outros img:hover{
+        transition:.3s;
+        border-radius:50%;
+        width:105px;
+        height:105px;
+    }
+    .outros:hover{
+        color:black;
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-left:10px;
+        margin-right:10px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .text_contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:100px;
+        font-size:25px;
+        margin-top:10px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:375px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .fundo{
+        background-color:rgb(252, 225, 197);
+        color:rgb(157, 91, 41);
+        height:320px;
+        width:300px;
+        border-radius:7px;
+        margin-left:10px;
+        margin-right:10px;
+        padding:10px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .fundo img{
+        height:60px;
+        width:60px;
+    }
+    .fundo_cadastro{
+        background-color:rgb(252, 225, 197);
+        height:320px;
+        width:300px;
+        border-radius:7px;
+        margin-left:10px;
+        margin-right:10px;
+        padding:10px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .text_preencha{
+        color:rgb(157, 91, 41);
+    }
+    .text_caso{
+        color:rgb(157, 91, 41);
+    }
+    .input_cadastro{
+        background-color: rgb(206, 176, 153);
+        color:rgb(252, 225, 197);
+        height:35px;
+        width:200px;
+        border-radius:5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .input_cadastro:hover{
+        background-color: rgb(188, 159, 136);
+        color:rgb(252, 225, 197);
+        height:35px;
+        width:200px;
+        border-radius:5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .input_cadastrar{
+        background-color:rgb(157, 91, 41);
+        color:rgb(252, 225, 197);
+        height:40px;
+        width:175px;
+        border-radius:5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .input_cadastrar:hover{
+        background-color:rgb(131, 72, 28);
+        color:rgb(252, 225, 197);
+        height:40px;
+        width:175px;
+        border-radius:5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .infos{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:20px;
+        margin-top:30px;
+        margin-bottom:30px;
+        display:flex;
+        flex-direction:row;
+    }
+    .infos img{
+        height:20px;
+        width:20px;
+    }
+    footer{
+        background-color:rgb(42, 143, 0);
+        width:100%;
+        height:350px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .mais_informacoes{
+        background-color: rgb(42, 143, 0);
+        height:100px;
+        width:100%;
+        font-size:25px;
+        margin-top:60px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .informacoes{
+        background-color: rgb(42, 143, 0);
+        margin-right:60px;
+        margin-left:60px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes:hover{
+        background-color: rgb(42, 143, 0);
+        font-size:18px;
+        transition: .3s;
+        margin-right:60px;
+        margin-left:60px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes img{
+        width:80px;
+        height:80px;
+    }
+    .informacoes:hover img{
+        transition: .3s;
+        width:100px;
+        height:100px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
+    @font-face{
+        font-family:font_body;
+        src:url(../FONT/TT\ Octosquares\ Trial\ Compressed\ Light.ttf);
+    }
+    @font-face {
+        font-family:font_title;
+        src: url(../FONT/VictorianBritania.ttf);
+    }
+    body{
+        background-color: black;
+        color:rgb(252, 225, 197);
+    }
+    h1{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:50px;
+    }
+    h2{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+    }
+    h3{
+        color:rgb(157, 91, 41);
+        font-family:font_title;
+        font-size:21px;
+    }
+    h4{
+        color:black;
+        font-family:font_body;
+        font-size:19px;
+    }
+    h4:hover{
+        color:black;
+        font-family:font_body;
+        font-size:19px;
+        text-decoration:underline;
+    }
+    h5{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:26px;
+    }
+    h6{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:14px;
+    }
+    h6:hover{
+        color:rgb(98, 53, 18);
+    }
+    p{
+        color:rgb(252, 225, 197);
+        font-family:font_body;
+        font-size:21px;
+    }
+    .container{
+        width:100%;
+        height:5340px;
+    }
+    .menu{
+        background-color:rgba(47, 34, 34, 0.593);
+        width:100%;
+        height:129px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .menu img{
+        width:34px;
+        height:34px;
+    }
+    .menu img:hover{
+        width:60px;
+        height:60px;
+        transition:.3s;
+    }
+    a{
+        color:rgb(252, 225, 197);
+        text-decoration:none;
+    }
+    li{
+        color:rgb(252, 225, 197);
+        font-size:large;
+        font-family:font_title;
+        width:172px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    li:hover{
+        color:rgb(42, 143, 0);
+        font-size:larger;
+        font-family:font_title;
+        transition: .3s;
+        width:172px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .sobre{
+        background-image:url(../IMG/loja_de_discos.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:560px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .sobre img{
+        width:388px;
+        height:388px;
+    }
+    .sobre_logo{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:474px;
+        width:517px;
+        border-radius:6px;
+        padding:26px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_logo img{
+        width:388px;
+        height:388px;
+    }
+    .sobre_text{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:474px;
+        width:517px;
+        border-radius:6px;
+        padding:26px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_text img{
+        height:43px;
+        width:43px;
+    }
+    .image_banner{
+        width:862px;
+        height:431px;
+        border-radius:6px;
+        margin-left:207px;
+        margin-right:52px;
+        margin-top:52px;
+        margin-bottom:17px;
+    }
+    .image_banner img{
+        width:862px;
+        height:431px;
+        border-radius:6px;
+    }
+    .divisao{
+        width:100%;
+        height:3017px;
+        margin-top:52px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .divisao img{
+        width:258px;
+        height:258px;
+    }
+    .title_bandas{
+        background-color:rgba(37, 26, 19, 0.805);
+        width:1207px;
+        height:86px;
+        border-radius:6px;
+        margin-top:52px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .title_bandas img{
+        width:155px;
+        height:86px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .bandas{
+        background-color: rgba(37, 26, 19, 0.805);
+        height:603px;
+        width:1207px;
+        border-radius:6px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .discos{
+        background-color: rgb(252, 225, 197);
+        color:black;
+        height:431px;
+        width:258px;
+        border-radius:6px;
+        padding:8px;
+        margin-left:13px;
+        margin-right:13px;
+        display:flex;
+        flex-direction:column;
+    }
+    .discos img{
+        height:172px;
+        width:172px;
+    }
+    .discos:hover{
+        background-color:rgb(74, 119, 55);
+        color:black;
+        height:431px;
+        width:258px;
+        border-radius:6px;
+        padding:8px;
+        margin-left:13px;
+        margin-right:13px;
+        transition:.5s;
+        display:flex;
+        flex-direction:column;
+    }
+    .img_discos{
+        height:172px;
+        width:258px;
+        display:flex;
+        justify-content:center;
+    }
+    .stars{
+        height: fit-content;
+        width: 280px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .stars img{
+        height:17px;
+        width:86px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .preco{
+        color:rgb(0, 0, 0);
+        font-family:font_body;
+        font-size:34px;
+    }
+    .outros_produtos{
+        width:100%;
+        height:646px;
+        margin-top:52px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bandas_mais{
+        background-color:rgba(37, 26, 19, 0.805);
+        height:474px;
+        width:1207px;
+        border-radius:6px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .outros{
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left:8px;
+        margin-right:8px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .outros img{
+        border-radius:50%;
+        width:86px;
+        height:86px;
+    }
+    .outros img:hover{
+        transition:.3s;
+        border-radius:50%;
+        width:90px;
+        height:90px;
+    }
+    .outros:hover{
+        color:black;
+        margin-top:8px;
+        margin-bottom:8px;
+        margin-left:8px;
+        margin-right:8px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .text_contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:86px;
+        font-size:21px;
+        margin-top:8px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:323px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .fundo{
+        background-color:rgb(252, 225, 197);
+        color:rgb(157, 91, 41);
+        height:275px;
+        width:258px;
+        border-radius:6px;
+        margin-left:8px;
+        margin-right:8px;
+        padding:8px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .fundo img{
+        height:52px;
+        width:52px;
+    }
+    .fundo_cadastro{
+        background-color:rgb(252, 225, 197);
+        height:276px;
+        width:258px;
+        border-radius:6px;
+        margin-left:8px;
+        margin-right:8px;
+        padding:8px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .text_preencha{
+        color:rgb(157, 91, 41);
+    }
+    .text_caso{
+        color:rgb(157, 91, 41);
+    }
+    .input_cadastro{
+        background-color: rgb(206, 176, 153);
+        color:rgb(252, 225, 197);
+        height:30px;
+        width:172px;
+        border-radius:4px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:17px;
+        margin-bottom:17px;
+    }
+    .input_cadastro:hover{
+        background-color: rgb(188, 159, 136);
+        color:rgb(252, 225, 197);
+        height:30px;
+        width:172px;
+        border-radius:4px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:17px;
+        margin-bottom:17px;
+    }
+    .input_cadastrar{
+        background-color:rgb(157, 91, 41);
+        color:rgb(252, 225, 197);
+        height:34px;
+        width:151px;
+        border-radius:4px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:17px;
+        margin-bottom:17px;
+    }
+    .input_cadastrar:hover{
+        background-color:rgb(131, 72, 28);
+        color:rgb(252, 225, 197);
+        height:34px;
+        width:151px;
+        border-radius:4px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:17px;
+        margin-bottom:17px;
+    }
+    .infos{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:17px;
+        margin-top:26px;
+        margin-bottom:26px;
+        display:flex;
+        flex-direction:row;
+    }
+    .infos img{
+        height:17px;
+        width:17px;
+    }
+    footer{
+        background-color:rgb(42, 143, 0);
+        width:100%;
+        height:301px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .mais_informacoes{
+        background-color: rgb(42, 143, 0);
+        height:86px;
+        width:100%;
+        font-size:21px;
+        margin-top:52px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .informacoes{
+        background-color: rgb(42, 143, 0);
+        margin-right:52px;
+        margin-left:52px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes:hover{
+        background-color: rgb(42, 143, 0);
+        font-size:15px;
+        transition: .3s;
+        margin-right:52px;
+        margin-left:52px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes img{
+        width:86px;
+        height:86px;
+    }
+    .informacoes:hover img{
+        transition: .3s;
+        width:108px;
+        height:108px;
+    }
+}
+@media (min-width:992px) and (max-width:1199.98px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
+    @font-face{
+        font-family:font_body;
+        src:url(../FONT/TT\ Octosquares\ Trial\ Compressed\ Light.ttf);
+    }
+    @font-face {
+        font-family:font_title;
+        src: url(../FONT/VictorianBritania.ttf);
+    }
+    body{
+        background-color: black;
+        color:rgb(252, 225, 197);
+    }
+    h1{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:36px;
+    }
+    h2{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+    }
+    h3{
+        color:rgb(157, 91, 41);
+        font-family:font_title;
+        font-size:18px;
+    }
+    h4{
+        color:black;
+        font-family:font_body;
+        font-size:16px;
+    }
+    h4:hover{
+        color:black;
+        font-family:font_body;
+        font-size:16px;
+        text-decoration:underline;
+    }
+    h5{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:21px;
+    }
+    h6{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:12px;
+    }
+    h6:hover{
+        color:rgb(98, 53, 18);
+    }
+    p{
+        color:rgb(252, 225, 197);
+        font-family:font_body;
+        font-size:18px;
+    }
+    .container{
+        width:100%;
+        height:4425px;
+    }
+    .menu{
+        background-color:rgba(47, 34, 34, 0.593);
+        width:100%;
+        height:107px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .menu img{
+        width:28px;
+        height:28px;
+    }
+    .menu img:hover{
+        width:50px;
+        height:50px;
+        transition:.3s;
+    }
+    a{
+        color:rgb(252, 225, 197);
+        text-decoration:none;
+    }
+    li{
+        color:rgb(252, 225, 197);
+        font-size:17px;
+        font-family:font_title;
+        width:143px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    li:hover{
+        color:rgb(42, 143, 0);
+        font-size:21px;
+        font-family:font_title;
+        transition: .3s;
+        width:143px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .sobre{
+        background-image:url(../IMG/loja_de_discos.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:464px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .sobre img{
+        width:321px;
+        height:321px;
+    }
+    .sobre_logo{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:393px;
+        width:428px;
+        border-radius:5px;
+        padding:21px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_logo img{
+        width:321px;
+        height:321px;
+    }
+    .sobre_text{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:393px;
+        width:428px;
+        border-radius:5px;
+        padding:21px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_text img{
+        height:36px;
+        width:36px;
+    }
+    .image_banner{
+        width:714px;
+        height:357px;
+        border-radius:5px;
+        margin-left:171px;
+        margin-right:43px;
+        margin-top:43px;
+        margin-bottom:14px;
+    }
+    .image_banner img{
+        width:714px;
+        height:357px;
+        border-radius:5px;
+    }
+    .divisao{
+        width:100%;
+        height:2500px;
+        margin-top:43px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .divisao img{
+        width:214px;
+        height:214px;
+    }
+    .title_bandas{
+        background-color:rgba(37, 26, 19, 0.805);
+        width:1000px;
+        height:71px;
+        border-radius:5px;
+        margin-top:43px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .title_bandas img{
+        width:128px;
+        height:71px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .bandas{
+        background-color: rgba(37, 26, 19, 0.805);
+        height:500px;
+        width:1000px;
+        border-radius:5px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .discos{
+        background-color: rgb(252, 225, 197);
+        color:black;
+        height:357px;
+        width:214px;
+        border-radius:5px;
+        padding:7px;
+        margin-left:10px;
+        margin-right:10px;
+        display:flex;
+        flex-direction:column;
+    }
+    .discos img{
+        height:143px;
+        width:143px;
+    }
+    .discos:hover{
+        background-color:rgb(74, 119, 55);
+        color:black;
+        height:357px;
+        width:214px;
+        border-radius:5px;
+        padding:7px;
+        margin-left:10px;
+        margin-right:10px;
+        transition:.5s;
+        display:flex;
+        flex-direction:column;
+    }
+    .img_discos{
+        height:200px;
+        width:300px;
+        display:flex;
+        justify-content:flex-start;
+    }
+    .stars{
+        height: fit-content;
+        width: 325px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .stars img{
+        height:14px;
+        width:71px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .preco{
+        color:rgb(0, 0, 0);
+        font-family:font_body;
+        font-size:28px;
+    }
+    .outros_produtos{
+        width:100%;
+        height:536px;
+        margin-top:43px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bandas_mais{
+        background-color:rgba(37, 26, 19, 0.805);
+        height:393px;
+        width:1000px;
+        border-radius:5px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .outros{
+        margin-top:7px;
+        margin-bottom:7px;
+        margin-left:7px;
+        margin-right:7px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .outros img{
+        border-radius:50%;
+        width:71px;
+        height:71px;
+    }
+    .outros img:hover{
+        transition:.3s;
+        border-radius:50%;
+        width:75px;
+        height:75px;
+    }
+    .outros:hover{
+        color:black;
+        margin-top:7px;
+        margin-bottom:7px;
+        margin-left:7px;
+        margin-right:7px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .text_contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:71px;
+        font-size:18px;
+        margin-top:7px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:268px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .fundo{
+        background-color:rgb(252, 225, 197);
+        color:rgb(157, 91, 41);
+        height:228px;
+        width:214px;
+        border-radius:5px;
+        margin-left:7px;
+        margin-right:7px;
+        padding:7px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .fundo img{
+        height:43px;
+        width:43px;
+    }
+    .fundo_cadastro{
+        background-color:rgb(252, 225, 197);
+        height:228px;
+        width:214px;
+        border-radius:5px;
+        margin-left:7px;
+        margin-right:7px;
+        padding:7px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .text_preencha{
+        color:rgb(157, 91, 41);
+    }
+    .text_caso{
+        color:rgb(157, 91, 41);
+    }
+    .input_cadastro{
+        background-color: rgb(206, 176, 153);
+        color:rgb(252, 225, 197);
+        height:25px;
+        width:143px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:14px;
+        margin-bottom:14px;
+    }
+    .input_cadastro:hover{
+        background-color: rgb(188, 159, 136);
+        color:rgb(252, 225, 197);
+        height:25px;
+        width:143px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:14px;
+        margin-bottom:14px;
+    }
+    .input_cadastrar{
+        background-color:rgb(157, 91, 41);
+        color:rgb(252, 225, 197);
+        height:28px;
+        width:125px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:14px;
+        margin-bottom:14px;
+    }
+    .input_cadastrar:hover{
+        background-color:rgb(131, 72, 28);
+        color:rgb(252, 225, 197);
+        height:28px;
+        width:125px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:14px;
+        margin-bottom:14px;
+    }
+    .infos{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:14px;
+        margin-top:21px;
+        margin-bottom:21px;
+        display:flex;
+        flex-direction:row;
+    }
+    .infos img{
+        height:14px;
+        width:14px;
+    }
+    footer{
+        background-color:rgb(42, 143, 0);
+        width:100%;
+        height:250px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .mais_informacoes{
+        background-color: rgb(42, 143, 0);
+        height:71px;
+        width:100%;
+        font-size:18px;
+        margin-top:43px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .informacoes{
+        background-color: rgb(42, 143, 0);
+        margin-right:43px;
+        margin-left:43px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes:hover{
+        background-color: rgb(42, 143, 0);
+        font-size:13px;
+        transition: .3s;
+        margin-right:43px;
+        margin-left:43px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes img{
+        width:71px;
+        height:71px;
+    }
+    .informacoes:hover img{
+        transition: .3s;
+        width:89px;
+        height:89px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
+    @font-face{
+        font-family:font_body;
+        src:url(../FONT/TT\ Octosquares\ Trial\ Compressed\ Light.ttf);
+    }
+    @font-face {
+        font-family:font_title;
+        src: url(../FONT/VictorianBritania.ttf);
+    }
+    body{
+        background-color: black;
+        color:rgb(252, 225, 197);
+    }
+    h1{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:26px;
+    }
+    h2{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+    }
+    h3{
+        color:rgb(157, 91, 41);
+        font-family:font_title;
+        font-size:13px;
+    }
+    h4{
+        color:black;
+        font-family:font_body;
+        font-size:11px;
+    }
+    h4:hover{
+        color:black;
+        font-family:font_body;
+        font-size:11px;
+        text-decoration:underline;
+    }
+    h5{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:16px;
+    }
+    h6{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:9px;
+    }
+    h6:hover{
+        color:rgb(98, 53, 18);
+    }
+    p{
+        color:rgb(252, 225, 197);
+        font-family:font_body;
+        font-size:13px;
+    }
+    .container{
+        width:100%;
+        height:3260px;
+    }
+    .menu{
+        background-color:rgba(47, 34, 34, 0.593);
+        width:100%;
+        height:79px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .menu img{
+        width:21px;
+        height:21px;
+    }
+    .menu img:hover{
+        width:37px;
+        height:37px;
+        transition:.3s;
+    }
+    a{
+        color:rgb(252, 225, 197);
+        text-decoration:none;
+    }
+    li{
+        color:rgb(252, 225, 197);
+        font-size:12px;
+        font-family:font_title;
+        width:105px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    li:hover{
+        color:rgb(42, 143, 0);
+        font-size:14px;
+        font-family:font_title;
+        transition: .3s;
+        width:105px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .sobre{
+        background-image:url(../IMG/loja_de_discos.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:342px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .sobre img{
+        width:237px;
+        height:237px;
+    }
+    .sobre_logo{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:289px;
+        width:316px;
+        border-radius:3px;
+        padding:16px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_logo img{
+        width:237px;
+        height:237px;
+    }
+    .sobre_text{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:289px;
+        width:316px;
+        border-radius:3px;
+        padding:16px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_text img{
+        height:26px;
+        width:26px;
+    }
+    .image_banner{
+        width:526px;
+        height:263px;
+        border-radius:3px;
+        margin-left:126px;
+        margin-right:31px;
+        margin-top:31px;
+        margin-bottom:10px;
+    }
+    .image_banner img{
+        width:526px;
+        height:263px;
+        border-radius:3px;
+    }
+    .divisao{
+        width:100%;
+        height:1842px;
+        margin-top:31px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .divisao img{
+        width:158px;
+        height:158px;
+    }
+    .title_bandas{
+        background-color:rgba(37, 26, 19, 0.805);
+        width:737px;
+        height:52px;
+        border-radius:3px;
+        margin-top:31px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .title_bandas img{
+        width:95px;
+        height:52px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .bandas{
+        background-color: rgba(37, 26, 19, 0.805);
+        height:368px;
+        width:737px;
+        border-radius:3px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .discos{
+        background-color: rgb(252, 225, 197);
+        color:black;
+        height:263px;
+        width:158px;
+        border-radius:3px;
+        padding:5px;
+        margin-left:8px;
+        margin-right:8px;
+        display:flex;
+        flex-direction:column;
+    }
+    .discos img{
+        height:105px;
+        width:105px;
+    }
+    .discos:hover{
+        background-color:rgb(74, 119, 55);
+        color:black;
+        height:263px;
+        width:158px;
+        border-radius:3px;
+        padding:5px;
+        margin-left:8px;
+        margin-right:8px;
+        transition:.5s;
+        display:flex;
+        flex-direction:column;
+    }
+    .img_discos{
+        height:105px;
+        width:158px;
+        display:flex;
+        justify-content:center;
+    }
+    .stars{
+        height: fit-content;
+        width: 171px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .stars img{
+        height:10px;
+        width:52px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .preco{
+        color:rgb(0, 0, 0);
+        font-family:font_body;
+        font-size:21px;
+    }
+    .outros_produtos{
+        width:100%;
+        height:395px;
+        margin-top:31px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bandas_mais{
+        background-color:rgba(37, 26, 19, 0.805);
+        height:289px;
+        width:737px;
+        border-radius:3px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .outros{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-left:5px;
+        margin-right:5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .outros img{
+        border-radius:50%;
+        width:52px;
+        height:52px;
+    }
+    .outros img:hover{
+        transition:.3s;
+        border-radius:50%;
+        width:55px;
+        height:55px;
+    }
+    .outros:hover{
+        color:black;
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-left:5px;
+        margin-right:5px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .text_contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:60px;
+        font-size:13px;
+        margin-top:5px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:197px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .fundo{
+        background-color:rgb(252, 225, 197);
+        color:rgb(157, 91, 41);
+        height:168px;
+        width:158px;
+        border-radius:3px;
+        margin-left:5px;
+        margin-right:5px;
+        padding:5px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .fundo img{
+        height:31px;
+        width:31px;
+    }
+    .fundo_cadastro{
+        background-color:rgb(252, 225, 197);
+        height:168px;
+        width:158px;
+        border-radius:3px;
+        margin-left:5px;
+        margin-right:5px;
+        padding:5px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .text_preencha{
+        color:rgb(157, 91, 41);
+    }
+    .text_caso{
+        color:rgb(157, 91, 41);
+    }
+    .input_cadastro{
+        background-color: rgb(206, 176, 153);
+        color:rgb(252, 225, 197);
+        height:18px;
+        width:105px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .input_cadastro:hover{
+        background-color: rgb(188, 159, 136);
+        color:rgb(252, 225, 197);
+        height:18px;
+        width:105px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .input_cadastrar{
+        background-color:rgb(157, 91, 41);
+        color:rgb(252, 225, 197);
+        height:21px;
+        width:91px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .input_cadastrar:hover{
+        background-color:rgb(131, 72, 28);
+        color:rgb(252, 225, 197);
+        height:21px;
+        width:92px;
+        border-radius:3px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .infos{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:10px;
+        margin-top:16px;
+        margin-bottom:16px;
+        display:flex;
+        flex-direction:row;
+    }
+    .infos img{
+        height:10px;
+        width:10px;
+    }
+    footer{
+        background-color:rgb(42, 143, 0);
+        width:100%;
+        height:184px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .mais_informacoes{
+        background-color: rgb(42, 143, 0);
+        height:52px;
+        width:100%;
+        font-size:13px;
+        margin-top:31px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .informacoes{
+        background-color: rgb(42, 143, 0);
+        margin-right:31px;
+        margin-left:31px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes:hover{
+        background-color: rgb(42, 143, 0);
+        font-size:9px;
+        transition: .3s;
+        margin-right:31px;
+        margin-left:31px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes img{
+        width:52px;
+        height:52px;
+    }
+    .informacoes:hover img{
+        transition: .3s;
+        width:65px;
+        height:65px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
+    @font-face{
+        font-family:font_body;
+        src:url(../FONT/TT\ Octosquares\ Trial\ Compressed\ Light.ttf);
+    }
+    @font-face {
+        font-family:font_title;
+        src: url(../FONT/VictorianBritania.ttf);
+    }
+    body{
+        background-color: black;
+        color:rgb(252, 225, 197);
+    }
+    h1{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:20px;
+    }
+    h2{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+    }
+    h3{
+        color:rgb(157, 91, 41);
+        font-family:font_title;
+        font-size:10px;
+    }
+    h4{
+        color:black;
+        font-family:font_body;
+        font-size:9px;
+    }
+    h4:hover{
+        color:black;
+        font-family:font_body;
+        font-size:9px;
+        text-decoration:underline;
+    }
+    h5{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:12px;
+    }
+    h6{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:7px;
+    }
+    h6:hover{
+        color:rgb(98, 53, 18);
+    }
+    p{
+        color:rgb(252, 225, 197);
+        font-family:font_body;
+        font-size:10px;
+    }
+    .container{
+        width:100%;
+        height:2478px;
+    }
+    .menu{
+        background-color:rgba(47, 34, 34, 0.593);
+        width:100%;
+        height:60px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .menu img{
+        width:16px;
+        height:16px;
+    }
+    .menu img:hover{
+        width:28px;
+        height:28px;
+        transition:.3s;
+    }
+    a{
+        color:rgb(252, 225, 197);
+        text-decoration:none;
+    }
+    li{
+        color:rgb(252, 225, 197);
+        font-size:9px;
+        font-family:font_title;
+        width:80px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    li:hover{
+        color:rgb(42, 143, 0);
+        font-size:12px;
+        font-family:font_title;
+        transition: .3s;
+        width:80px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .sobre{
+        background-image:url(../IMG/loja_de_discos.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:260px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .sobre img{
+        width:180px;
+        height:180px;
+    }
+    .sobre_logo{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:220px;
+        width:240px;
+        border-radius:3px;
+        padding:12px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_logo img{
+        width:180px;
+        height:180px;
+    }
+    .sobre_text{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:220px;
+        width:240px;
+        border-radius:3px;
+        padding:12px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_text img{
+        height:20px;
+        width:20px;
+    }
+    .image_banner{
+        width:400px;
+        height:200px;
+        border-radius:3px;
+        margin-left:120px;
+        margin-right:24px;
+        margin-top:24px;
+        margin-bottom:8px;
+    }
+    .image_banner img{
+        width:400px;
+        height:200px;
+        border-radius:3px;
+    }
+    .divisao{
+        width:100%;
+        height:1400px;
+        margin-top:24px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .divisao img{
+        width:120px;
+        height:120px;
+    }
+    .title_bandas{
+        background-color:rgba(37, 26, 19, 0.805);
+        width:560px;
+        height:40px;
+        border-radius:3px;
+        margin-top:24px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .title_bandas img{
+        width:72px;
+        height:40px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .bandas{
+        background-color: rgba(37, 26, 19, 0.805);
+        height:280px;
+        width:560px;
+        border-radius:3px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .discos{
+        background-color: rgb(252, 225, 197);
+        color:black;
+        height:200px;
+        width:120px;
+        border-radius:3px;
+        padding:4px;
+        margin-left:6px;
+        margin-right:6px;
+        display:flex;
+        flex-direction:column;
+    }
+    .discos img{
+        height:80px;
+        width:80px;
+    }
+    .discos:hover{
+        background-color:rgb(74, 119, 55);
+        color:black;
+        height:200px;
+        width:120px;
+        border-radius:3px;
+        padding:4px;
+        margin-left:6px;
+        margin-right:6px;
+        transition:.5s;
+        display:flex;
+        flex-direction:column;
+    }
+    .img_discos{
+        height:80px;
+        width:120px;
+        display:flex;
+        justify-content:center;
+    }
+    .stars{
+        height: fit-content;
+        width:130px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .stars img{
+        height:8px;
+        width:16px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .preco{
+        color:rgb(0, 0, 0);
+        font-family:font_body;
+        font-size:16px;
+    }
+    .outros_produtos{
+        width:100%;
+        height:300px;
+        margin-top:24px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bandas_mais{
+        background-color:rgba(37, 26, 19, 0.805);
+        height:220px;
+        width:560px;
+        border-radius:3px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .outros{
+        margin-top:4px;
+        margin-bottom:4px;
+        margin-left:4px;
+        margin-right:4px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .outros img{
+        border-radius:50%;
+        width:40px;
+        height:40px;
+    }
+    .outros img:hover{
+        transition:.3s;
+        border-radius:50%;
+        width:42px;
+        height:42px;
+    }
+    .outros:hover{
+        color:black;
+        margin-top:4px;
+        margin-bottom:4px;
+        margin-left:4px;
+        margin-right:4px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .text_contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:40px;
+        font-size:10px;
+        margin-top:4px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:150px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .fundo{
+        background-color:rgb(252, 225, 197);
+        color:rgb(157, 91, 41);
+        height:128px;
+        width:120px;
+        border-radius:3px;
+        margin-left:4px;
+        margin-right:4px;
+        padding:4px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .fundo img{
+        height:24px;
+        width:24px;
+    }
+    .fundo_cadastro{
+        background-color:rgb(252, 225, 197);
+        height:128px;
+        width:120px;
+        border-radius:3px;
+        margin-left:4px;
+        margin-right:4px;
+        padding:4px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .text_preencha{
+        color:rgb(157, 91, 41);
+    }
+    .text_caso{
+        color:rgb(157, 91, 41);
+    }
+    .input_cadastro{
+        background-color: rgb(206, 176, 153);
+        color:rgb(252, 225, 197);
+        height:14px;
+        width:80px;
+        border-radius:2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+    .input_cadastro:hover{
+        background-color: rgb(188, 159, 136);
+        color:rgb(252, 225, 197);
+        height:14px;
+        width:80px;
+        border-radius:2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+    .input_cadastrar{
+        background-color:rgb(157, 91, 41);
+        color:rgb(252, 225, 197);
+        height:16px;
+        width:70px;
+        border-radius:2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+    .input_cadastrar:hover{
+        background-color:rgb(131, 72, 28);
+        color:rgb(252, 225, 197);
+        height:16px;
+        width:70px;
+        border-radius:2px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:8px;
+        margin-bottom:8px;
+    }
+    .infos{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:8px;
+        margin-top:12px;
+        margin-bottom:12px;
+        display:flex;
+        flex-direction:row;
+    }
+    .infos img{
+        height:8px;
+        width:8px;
+    }
+    footer{
+        background-color:rgb(42, 143, 0);
+        width:100%;
+        height:140px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .mais_informacoes{
+        background-color: rgb(42, 143, 0);
+        height:50px;
+        width:100%;
+        font-size:10px;
+        margin-top:24px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .informacoes{
+        background-color: rgb(42, 143, 0);
+        margin-right:24px;
+        margin-left:24px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes:hover{
+        background-color: rgb(42, 143, 0);
+        font-size:7px;
+        transition: .3s;
+        margin-right:24px;
+        margin-left:24px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes img{
+        width:40px;
+        height:40px;
+    }
+    .informacoes:hover img{
+        transition: .3s;
+        width:50px;
+        height:50px;
+    }
+}
+@media (min-width:0px) and (max-width:575.98px){
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+    html{
+        scroll-behavior:smooth;
+    }
+    @font-face{
+        font-family:font_body;
+        src:url(../FONT/TT\ Octosquares\ Trial\ Compressed\ Light.ttf);
+    }
+    @font-face {
+        font-family:font_title;
+        src: url(../FONT/VictorianBritania.ttf);
+    }
+    body{
+        background-color: black;
+        color:rgb(252, 225, 197);
+    }
+    h1{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:15px;
+    }
+    h2{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+    }
+    h3{
+        color:rgb(157, 91, 41);
+        font-family:font_title;
+        font-size:7px;
+    }
+    h4{
+        color:black;
+        font-family:font_body;
+        font-size:6px;
+    }
+    h4:hover{
+        color:black;
+        font-family:font_body;
+        font-size:6px;
+        text-decoration:underline;
+    }
+    h5{
+        color:rgb(252, 225, 197);
+        font-family:font_title;
+        font-size:9px;
+    }
+    h6{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:5px;
+    }
+    h6:hover{
+        color:rgb(98, 53, 18);
+    }
+    p{
+        color:rgb(252, 225, 197);
+        font-family:font_body;
+        font-size:7px;
+    }
+    .container{
+        width:100%;
+        height:1877px;
+    }
+    .menu{
+        background-color:rgba(47, 34, 34, 0.593);
+        width:100%;
+        height:45px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+    .menu img{
+        width:12px;
+        height:12px;
+    }
+    .menu img:hover{
+        width:21px;
+        height:21px;
+        transition:.3s;
+    }
+    a{
+        color:rgb(252, 225, 197);
+        text-decoration:none;
+    }
+    li{
+        color:rgb(252, 225, 197);
+        font-size:6px;
+        font-family:font_title;
+        width:60px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    li:hover{
+        color:rgb(42, 143, 0);
+        font-size:7px;
+        font-family:font_title;
+        transition: .3s;
+        width:60px;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .sobre{
+        background-image:url(../IMG/loja_de_discos.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:197px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .sobre img{
+        width:136px;
+        height:136px;
+    }
+    .sobre_logo{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:166px;
+        width:182px;
+        border-radius:2px;
+        padding:9px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_logo img{
+        width:136px;
+        height:136px;
+    }
+    .sobre_text{
+        background-color: rgba(0, 0, 0, 0.592);
+        height:166px;
+        width:182px;
+        border-radius:2px;
+        padding:9px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .sobre_text img{
+        height:15px;
+        width:15px;
+    }
+    .image_banner{
+        width:303px;
+        height:151px;
+        border-radius:2px;
+        margin-left:130px;
+        margin-right:18px;
+        margin-top:18px;
+        margin-bottom:6px;
+    }
+    .image_banner img{
+        width:303px;
+        height:151px;
+        border-radius:2px;
+    }
+    .divisao{
+        width:100%;
+        height:1060px;
+        margin-top:18px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .divisao img{
+        width:90px;
+        height:90px;
+    }
+    .title_bandas{
+        background-color:rgba(37, 26, 19, 0.805);
+        width:424px;
+        height:30px;
+        border-radius:3px;
+        margin-top:18px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .title_bandas img{
+        width:54px;
+        height:30px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    .bandas{
+        background-color: rgba(37, 26, 19, 0.805);
+        height:212px;
+        width:424px;
+        border-radius:2px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+    }
+    .discos{
+        background-color: rgb(252, 225, 197);
+        color:black;
+        height:151px;
+        width:90px;
+        border-radius:2px;
+        padding:3px;
+        margin-left:4px;
+        margin-right:4px;
+        display:flex;
+        flex-direction:column;
+    }
+    .discos img{
+        height:60px;
+        width:60px;
+    }
+    .discos:hover{
+        background-color:rgb(74, 119, 55);
+        color:black;
+        height:151px;
+        width:90px;
+        border-radius:2px;
+        padding:3px;
+        margin-left:4px;
+        margin-right:4px;
+        transition:.5s;
+        display:flex;
+        flex-direction:column;
+    }
+    .img_discos{
+        height:60px;
+        width:90px;
+        display:flex;
+        justify-content:center;
+    }
+    .stars{
+        height: fit-content;
+        width: 98px;
+        display:flex;
+        justify-content: flex-start;
+    }
+    .stars img{
+        height:6px;
+        width:30px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .preco{
+        color:rgb(0, 0, 0);
+        font-family:font_body;
+        font-size:12px;
+    }
+    .outros_produtos{
+        width:100%;
+        height:227px;
+        margin-top:18px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .bandas_mais{
+        background-color:rgba(37, 26, 19, 0.805);
+        height:166px;
+        width:424px;
+        border-radius:2px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .outros{
+        margin-top:3px;
+        margin-bottom:3px;
+        margin-left:3px;
+        margin-right:3px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .outros img{
+        border-radius:50%;
+        width:30px;
+        height:30px;
+    }
+    .outros img:hover{
+        transition:.3s;
+        border-radius:50%;
+        width:32px;
+        height:32px;
+    }
+    .outros:hover{
+        color:black;
+        margin-top:3px;
+        margin-bottom:3px;
+        margin-left:3px;
+        margin-right:3px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:flex-start;
+    }
+    .text_contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:32px;
+        font-size:7px;
+        margin-top:3px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .contato{
+        background-color: rgb(157, 91, 41);
+        width:100%;
+        height:113px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .fundo{
+        background-color:rgb(252, 225, 197);
+        color:rgb(157, 91, 41);
+        height:97px;
+        width:90px;
+        border-radius:2px;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-around;
+    }
+    .fundo img{
+        height:18px;
+        width:18px;
+    }
+    .fundo_cadastro{
+        background-color:rgb(252, 225, 197);
+        height:97px;
+        width:90px;
+        border-radius:2px;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .text_preencha{
+        color:rgb(157, 91, 41);
+    }
+    .text_caso{
+        color:rgb(157, 91, 41);
+    }
+    .input_cadastro{
+        background-color: rgb(206, 176, 153);
+        color:rgb(252, 225, 197);
+        height:10px;
+        width:60px;
+        border-radius:1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:6px;
+        margin-bottom:6px;
+    }
+    .input_cadastro:hover{
+        background-color: rgb(188, 159, 136);
+        color:rgb(252, 225, 197);
+        height:10px;
+        width:60px;
+        border-radius:1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:6px;
+        margin-bottom:6px;
+    }
+    .input_cadastrar{
+        background-color:rgb(157, 91, 41);
+        color:rgb(252, 225, 197);
+        height:12px;
+        width:53px;
+        border-radius:1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:6px;
+        margin-bottom:6px;
+    }
+    .input_cadastrar:hover{
+        background-color:rgb(131, 72, 28);
+        color:rgb(252, 225, 197);
+        height:12px;
+        width:53px;
+        border-radius:1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top:6px;
+        margin-bottom:6px;
+    }
+    .infos{
+        color:rgb(157, 91, 41);
+        font-family:font_body;
+        font-size:6px;
+        margin-top:9px;
+        margin-bottom:9px;
+        display:flex;
+        flex-direction:row;
+    }
+    .infos img{
+        height:6px;
+        width:6px;
+    }
+    footer{
+        background-color:rgb(42, 143, 0);
+        width:100%;
+        height:106px;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
+    }
+    .mais_informacoes{
+        background-color: rgb(42, 143, 0);
+        height:35px;
+        width:100%;
+        font-size:7px;
+        margin-top:18px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:flex-end;
+    }
+    .informacoes{
+        background-color: rgb(42, 143, 0);
+        margin-right:18px;
+        margin-left:18px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes:hover{
+        background-color: rgb(42, 143, 0);
+        font-size:6px;
+        transition: .3s;
+        margin-right:18px;
+        margin-left:18px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+    }
+    .informacoes img{
+        width:30px;
+        height:30px;
+    }
+    .informacoes:hover img{
+        transition: .3s;
+        width:38px;
+        height:38px;
+    }
+}
+/*
+    @media (min-width:1400px) and (max-width:1919.98px) = valores padrão
+    @media (min-width:1200px) and (max-width:1399.98px) = valores padrão/1,16
+    @media (min-width:992px) and (max-width:1199.98px) = valores padrão/1,4
+    @media (min-width:768px) and (max-width:991.98px) = valores padrão/1,9
+    @media (min-width:576px) and (max-width:767.98px) = valores padrão/2,5
+    @media (min-width:0px) and  (max-width:575.98px) = valores padrão/3,3
+*/
